@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis aplicaciones</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    
+    <!--Enlances boostrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+     <section id="app">
+        <h1>Apps</h1>
+        <div class="line"></div>
+        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/AmAIOlod-80aGvVFcBdbfjebPGUlVaYjI8ECZcJtZks/embed"></iframe>
+        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/U9AQsuLnTixFr5caYUBM9qmkuaPCvmuWblFMcUPrC14/embed"></iframe>
+    </section>
+    
+    <h1>Juegos</h1>
+    <div class="line"></div>
+    
+    <h6>Haz clic en los juegos para explorar</h6>
+    <h5>Estos se crearon en el laboratorio de sprites. Haz clic para jugar. </h5>
+
+     <!--La clase carousel slide ayuda a añadir un efecto de transición y animación CSS, que hace que los elementos se muevan cuando se hace clic en los botones siguiente o anterior -->
+    <div id="myCarousel" class="carousel slide" >
+        
+    <!--  indica que todo el contenido de los slides estará dentro de este div -->
+    <div class="carousel-inner">
+        
+        <!--class item definirá el contenido del slide
+            active significa que este slide se mostrará primero cuando se cargue la página-->
+        <div class="item active">
+            <center>
+                <a href="https://studio.code.org/projects/spritelab/crU2BKaKuZdBv0pE0Dfc8QYCea51ibAqodZdehmNTKg" target="_blank">
+                    <img src="Car_game.png">
+                </a>
+                <!--carousel-content significa que contendrá el contenido de texto de la diapositiva respectiva-->
+                <div class="carousel-content">
+                    <p>Car_game</p>
+                </div>
+            </center>
+        </div>
+        
+        <div class="item">
+            <center>
+                <a href="https://studio.code.org/projects/spritelab/nT4Dxpv8z3SA18sUwa31AvxC8ZbVPAwShLyvqNfEHUk" target="_blank">
+                    <img src="Winne_Pooh.png">
+                </a>
+                <div class="carousel-content">
+                    <p>Winne_Pooh</p>
+                </div>
+            </center>
+      </div>
+    
+    </div>
+
+    <!-- Creación de los botones -->
+    <!--left indica que será colocado en la parte izquierda de la pantalla
+        carousel-control le da el estilo a la etiqueta de anclaje
+        href="#myCarousel" pasamos el id de la presentación para que haga referencia a nuestro carrusel cuando se hace clic
+        data-slide="prev" Esto da la funcionalidad de obtener la diapositiva anterior.-->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <!--Coloca un icono de flecha-->
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+</div>
+<br>
+<br>
+    <section id="Chatbot">
+        <h1>ChatBot</h1>
+        <div class="line"></div>
+        <iframe height="430" width="350" src="https://bot.dialogflow.com/f0cbd64d-e888-4009-9eab-d83e44a2ae2e"></iframe>
+    </section>
+</body>=</html>
